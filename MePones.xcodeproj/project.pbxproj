@@ -10,7 +10,7 @@
 		6C11B843CCC1EFE4DDEA794D /* Pods_MePones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0911C907763B9AEDFA04517F /* Pods_MePones.framework */; };
 		6CCAB6DC2C942C5700EE9694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAB6DB2C942C5700EE9694 /* AppDelegate.swift */; };
 		6CCAB6DE2C942C5700EE9694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAB6DD2C942C5700EE9694 /* SceneDelegate.swift */; };
-		6CCAB6E02C942C5700EE9694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAB6DF2C942C5700EE9694 /* ViewController.swift */; };
+		6CCAB6E02C942C5700EE9694 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAB6DF2C942C5700EE9694 /* LoginViewController.swift */; };
 		6CCAB6E32C942C5700EE9694 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E22C942C5700EE9694 /* Base */; };
 		6CCAB6E52C942C5700EE9694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E42C942C5700EE9694 /* Assets.xcassets */; };
 		6CCAB6E82C942C5700EE9694 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E72C942C5700EE9694 /* Base */; };
@@ -22,7 +22,7 @@
 		6CCAB6D82C942C5700EE9694 /* MePones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MePones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCAB6DB2C942C5700EE9694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CCAB6DD2C942C5700EE9694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CCAB6DF2C942C5700EE9694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CCAB6DF2C942C5700EE9694 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6CCAB6E22C942C5700EE9694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CCAB6E42C942C5700EE9694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CCAB6E72C942C5700EE9694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +61,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6CBF1CDB2C9AE59100AE0FDF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		6CCAB6CF2C942C5700EE9694 = {
 			isa = PBXGroup;
 			children = (
@@ -82,9 +89,10 @@
 		6CCAB6DA2C942C5700EE9694 /* MePones */ = {
 			isa = PBXGroup;
 			children = (
+				6CBF1CDB2C9AE59100AE0FDF /* ViewControllers */,
 				6CCAB6DB2C942C5700EE9694 /* AppDelegate.swift */,
 				6CCAB6DD2C942C5700EE9694 /* SceneDelegate.swift */,
-				6CCAB6DF2C942C5700EE9694 /* ViewController.swift */,
+				6CCAB6DF2C942C5700EE9694 /* LoginViewController.swift */,
 				6CCAB6E12C942C5700EE9694 /* Main.storyboard */,
 				6CCAB6E42C942C5700EE9694 /* Assets.xcassets */,
 				6CCAB6E62C942C5700EE9694 /* LaunchScreen.storyboard */,
@@ -210,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCAB6E02C942C5700EE9694 /* ViewController.swift in Sources */,
+				6CCAB6E02C942C5700EE9694 /* LoginViewController.swift in Sources */,
 				6CCAB6DC2C942C5700EE9694 /* AppDelegate.swift in Sources */,
 				6CCAB6DE2C942C5700EE9694 /* SceneDelegate.swift in Sources */,
 			);
