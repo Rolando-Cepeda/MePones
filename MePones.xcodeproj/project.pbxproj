@@ -15,7 +15,7 @@
 		6CCAB6E32C942C5700EE9694 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E22C942C5700EE9694 /* Base */; };
 		6CCAB6E52C942C5700EE9694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E42C942C5700EE9694 /* Assets.xcassets */; };
 		6CCAB6E82C942C5700EE9694 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6E72C942C5700EE9694 /* Base */; };
-		6CCAB6F02C9459D800EE9694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAB6EF2C9459D800EE9694 /* GoogleService-Info.plist */; };
+		6CCB09A52CA18D03001B07FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB09A42CA18D03001B07FF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		6CCAB6E42C942C5700EE9694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CCAB6E72C942C5700EE9694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CCAB6E92C942C5700EE9694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CCAB6EF2C9459D800EE9694 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CCB09A42CA18D03001B07FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9839E0689078D77C93DB9188 /* Pods-MePones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MePones.release.xcconfig"; path = "Target Support Files/Pods-MePones/Pods-MePones.release.xcconfig"; sourceTree = "<group>"; };
 		C9D8DB6B62393F1745048B43 /* Pods-MePones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MePones.debug.xcconfig"; path = "Target Support Files/Pods-MePones/Pods-MePones.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 				6CCAB6E42C942C5700EE9694 /* Assets.xcassets */,
 				6CCAB6E62C942C5700EE9694 /* LaunchScreen.storyboard */,
 				6CCAB6E92C942C5700EE9694 /* Info.plist */,
-				6CCAB6EF2C9459D800EE9694 /* GoogleService-Info.plist */,
+				6CCB09A42CA18D03001B07FF /* GoogleService-Info.plist */,
 			);
 			path = MePones;
 			sourceTree = "<group>";
@@ -190,8 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCAB6E52C942C5700EE9694 /* Assets.xcassets in Resources */,
-				6CCAB6F02C9459D800EE9694 /* GoogleService-Info.plist in Resources */,
 				6CCAB6E82C942C5700EE9694 /* Base in Resources */,
+				6CCB09A52CA18D03001B07FF /* GoogleService-Info.plist in Resources */,
 				6CCAB6E32C942C5700EE9694 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

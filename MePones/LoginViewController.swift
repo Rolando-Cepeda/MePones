@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
         let username = userNameTextField.text!
         let password = passwordTextField.text!
         
-        Auth.auth().signIn(withEmail: username, password: password) { authResult, error in
+        Auth.auth().signIn(withEmail: username, password: password) { [unowned self] authResult, error in
             
             if let error = error {
                 print("Error al iniciar sesión")
